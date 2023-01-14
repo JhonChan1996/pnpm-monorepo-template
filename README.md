@@ -1,2 +1,7 @@
-# pnpm-monorepo-template
-a template for pnpm monorepo
+# 全局依赖
+
+```
+npm install -g pnpm
+
+pnpm install -g commitizen
+```

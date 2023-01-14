@@ -1,0 +1,9 @@
+packages:
+  # 项目
+  - "apps/**"
+  # 公共组件
+  - "packages/**"
+  # 公共配置
+  - "config/**"
+  # 文档
+  - "docs/**"

@@ -1,0 +1,6 @@
+[submodule "apps/monorepo-apps-demo1"]
+	path = apps/monorepo-apps-demo1
+	url = https://github.com/JhonChan1996/monorepo-apps-demo1.git
+[submodule "apps/monorepo-apps-demo2"]
+	path = apps/monorepo-apps-demo2
+	url = https://github.com/JhonChan1996/monorepo-apps-demo2.git

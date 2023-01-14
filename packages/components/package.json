@@ -1,0 +1,9 @@
+{
+  "name": "@packages/components",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "peerDependencies": {
+    "vue": "^3.2.45"
+  }
+}
