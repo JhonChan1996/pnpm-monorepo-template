@@ -1,3 +1,4 @@
+// https://cz-git.qbb.sh/zh/
 // .commitlintrc.js
 // /** @type {import('cz-git').UserConfig} */
 
@@ -11,13 +12,9 @@ const scopes = [
   ...getPackages("config"),
   "docs",
 ];
-console.log("[ scopes ] >", scopes);
 module.exports = {
   rules: {
     // @see: https://commitlint.js.org/#/reference-rules
-    "scope-enum": [2, "always", [...scopes]],
-    enableMultipleScopes: true,
-    scopeEnumSeparator: ",",
   },
   prompt: {
     // alias: { fd: "docs: fix typos" },
@@ -94,6 +91,8 @@ module.exports = {
     emojiAlign: "center",
     themeColorCode: "",
     scopes: [...scopes],
+    enableMultipleScopes: true,
+    scopeEnumSeparator: ",",
     allowCustomScopes: true,
     allowEmptyScopes: true,
     customScopesAlign: "bottom",
