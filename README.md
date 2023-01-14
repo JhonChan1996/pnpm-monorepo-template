@@ -1,7 +1,26 @@
-# 全局依赖
+# 开始
+
+## 全局依赖
 
 ```
-npm install -g pnpm
+npm install pnpm commitizen -g
 
-pnpm install -g commitizen
+```
+
+## 下载依赖
+
+```
+pnpm install
+```
+
+## 获取子模块
+
+```
+git submodule update --init --recursive
+```
+
+## commit 提交
+
+```
+cz | git cz
 ```
