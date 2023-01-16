@@ -1,1 +1,1 @@
-console.log("/packages/components/index.js");
+export * from "./cButton";

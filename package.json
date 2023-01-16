@@ -10,9 +10,6 @@
     "docs/**"
   ],
   "scripts": {},
-  "peerDependencies": {
-    "vue": "^3.2.45"
-  },
   "devDependencies": {
     "@config/eslint-config": "workspace:*",
     "@commitlint/cli": "^17.4.2",
