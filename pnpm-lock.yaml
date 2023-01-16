@@ -18,7 +18,7 @@ importers:
 
   apps/monorepo-apps-demo1:
     specifiers:
-      '@packages/components': workspace:^0.0.0
+      '@packages/components': workspace:^0.0.1
       '@vitejs/plugin-vue': ^4.0.0
       '@vitejs/plugin-vue-jsx': ^3.0.0
       ant-design-vue: ^3.2.15
