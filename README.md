@@ -44,8 +44,8 @@ git submodule update --remote apps/monorepo-apps-demo1
 > rm -rf 子模块目录
 
 ```
-git rm --cached moduleName
-rm -rf moduleName
+git rm --cached modulePath
+rm -rf modulePath
 ```
 
 > 删除 .gitmodules 文件中相关子模块的信息
@@ -67,7 +67,7 @@ rm -rf moduleName
 > 删除 .git 文件夹中的相关子模块文件
 
 ```
-rm -rf .git/modules/GWToolkit
+rm -rf .git/modules/moduleName
 ```
 
 # 公共模块更新
